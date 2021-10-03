@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8" />
+	<title>Order Tshirt</title>
+	<style>
+		body {background: black;}
+		.dash{
+			position: absolute;
+			width: 882px;
+			height: 900px;
+			left: 487px;
+			top: 62px;
+			border: 1px solid #000000;
+			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			padding-left: 50px;
+			background: #9DEDFF;
+		}
+
+		img{
+			padding: 60px;
+		}
+
+		input{
+			 
+			background-color: teal;
+			color: white;
+			padding: 16px 32px;
+			text-align: center;
+			font-size: 16px;
+			
+			transition-duration: 0.4s;
+			cursor: pointer;
+			
+		
+		}
+
+		.sq{
+			position: absolute;
+			left: 600px;
+			top: 70px;
+		}
+
+		.add{
+			padding-left: 250px;
+		}
+
+		.but{
+			padding-left: 300px;
+		}
+		
+
+	</style>
+
+	</head>
+	<body>
+		<img src="tshirt.jpg" height="300px" width="300px"><br><br>
+        <div class="dash">
+		<h1>Nike T-shirt</h1><br>
+
+
+        <section>
+		<form action="">
+
+
+			<label for="tag"><strong>Tag on the shirt:</strong></label><br><br>
+			<input type="text" id="tag" name="tag"><br><br>
+			<h3><b>Colors available:</b></h3>
+			<input type="radio" id="black" name="color" value="black">
+			<label for="black">Black</label><br>
+			<input type="radio" id="white" name="color" value="white">
+			<label for="white">White</label><br>
+			<input type="radio" id="red" name="color" value="red">
+			<label for="red">Red</label>
+
+			
+			<div class="sq">
+				<h3><b>Size: </b></h3>
+				<input list="size">
+				<datalist id="size">
+					<option value="S">
+					<option value="M">
+					<option value="L">
+					<option value="XL">	
+				</datalist> <br><br><br>
+
+				<label for="quantity"><b>Quantity:</b></label>
+				<select name="quantity" id="quantity">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select><br><br>
+			</div>
+
+			<div class="add">
+
+				<div>
+				<h3><b>Enter your address:</b></h3>
+				<textarea name="address" rows="10" cols="40">
+
+				</textarea>
+				</div><br>
+			
+
+				<div>
+				<h3><strong>Payment</strong></h3>
+				<input type="radio" id="paytm" name="payment" value="Paytm">
+				<label for="paytm">Paytm</label><br>
+				<input type="radio" id="bhim" name="payment" value="Bhim">
+				<label for="bhim">BHIM/UPI</label><br>
+				<input type="radio" id="bank" name="payment" value="Bank">
+				<label for="bank">Net Banking</label>
+				</div><br>
+			
+			</div>	
+			
+
+			
+			<div class="but">
+			<h2 ><strong>Total amount:</strong> ₹ 999</h2>
+            <input type="submit" value="Buy Now">
+			</div>
+
+			   
+
+		
+
+			
+
+		</form> 
+        </section>
+        </div>
+
+
+	</body>
+</html>

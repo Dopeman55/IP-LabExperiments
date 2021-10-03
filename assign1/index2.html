@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Order Tshirt</title>
+	</head>
+	<body>
+		<img src="tshirt.jpg" height="300px" width="300px"><br><br>
+		<h3>Nike T-shirt</h3><br>
+		<form action="">
+			<label for="tag"><strong>Tag on the shirt:</strong></label>
+			<input type="text" id="tag" name="tag"><br><br>
+			
+			<p><b>Color availble:</b></p>
+			<input type="radio" id="black" name="color" value="black">
+			<label for="black">Black</label><br>
+			<input type="radio" id="white" name="color" value="white">
+			<label for="white">White</label><br>
+			<input type="radio" id="red" name="color" value="red">
+			<label for="red">Red</label>
+			
+			
+			<p><b>Size: </b></p>
+			
+				<input list="size">
+				<datalist id="size">
+					<option value="S">
+					<option value="M">
+					<option value="L">
+					<option value="XL">
+
+					
+				</datalist> <br><br>
+
+				<label for="quantity"><b>Quantity:</b></label>
+				<select name="quantity" id="quantity">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select><br><br>
+
+				<p><strong>Payment</strong></p>
+				<input type="radio" id="paytm" name="payment" value="Paytm">
+				<label for="paytm">Paytm</label><br>
+				<input type="radio" id="bhim" name="payment" value="Bhim">
+				<label for="bhim">BHIM/UPI</label><br>
+				<input type="radio" id="bank" name="payment" value="Bank">
+				<label for="bank">Net Banking</label>
+				
+			
+			
+			<p><strong>Total amount:</strong> ₹ 999</p>
+            <input type="submit" value="Buy Now">
+			   
+
+		
+
+			
+
+		</form> 
+
+
+	</body>
+</html>

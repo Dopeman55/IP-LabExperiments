@@ -1,0 +1,38 @@
+
+
+.container {
+    margin: auto;
+    width: 350px;
+    text-align: center;
+}
+
+.list {display: flex; justify-content: center;}
+
+img {
+    width: 100%;
+}
+
+
+
+.vid{
+    width: 500px;
+    height: 300px;
+    padding-left: 500px;
+}
+
+.aud{
+    padding-left: 600px;
+}
+
+table{
+    padding-left: 65px;
+}
+
+a{
+    padding-left: 500px;
+}
+
+.head{
+    padding-left: 700px;
+}
+
